@@ -16,7 +16,8 @@ Some of the functionalities applied to the dataset:
 
 
 ## Build locally
-docker build -t streamlitlogistic .
+* docker build -t streamlitlogistic .
+* docker run -p 8501:8501 streamlitlogistic
 
 ## How to use the application
 http://localhost:8501
